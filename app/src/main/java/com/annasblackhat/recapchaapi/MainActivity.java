@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         setContentView(R.layout.activity_main);
 
         //Get your key at => https://www.google.com/recaptcha/admin
-        mSiteKey = "6LccySgUAAAAALDpgfPcexjFsX1GLlzEom3YWy-r";
-        secretKey = "6LccySgUAAAAANNXL52dg1fjZYUjW8fXVNCqVkFs";
+        mSiteKey = "";
+        secretKey = "";
 
         checkBox = (CheckBox) findViewById(R.id.cbx_verify);
         checkBox.setOnClickListener(new View.OnClickListener() {
